@@ -67,6 +67,7 @@ export interface DropdownAlertProps {
       type: DropdownAlertType,
       title: string,
       message: string,
+      payload?: object,
       interval?: number
     ): void
   }
